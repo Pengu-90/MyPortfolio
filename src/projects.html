@@ -4,12 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/e6644266dd.js" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
 </head>
 <body>
-    <div class="contain">
+    <nav class="stickyNav">
+        <ul class="nav justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+            </li>
+            <button onclick= downloadResume()>
+                <p><i class="fa-solid fa-download"></i> Resume</p>
+            </button>
+    
+        </ul>
+
+    </nav>
+    <div class="project-wrapper">
         <div class="projList">
-            <div class="list">
-                
+            <div class="proj-contain">
+                <div class="list-card">
+                    <h1>Gaming Chair Ecommerce UI</h1>
+                    <hr>
+                    <p>A UI web design layout idea of a ecommerce website that features a Gaming Chair.</p>
+
+                    <div class="image-wrapper">
+                        <img src="../img/1.png" alt="">
+                        <img src="../img/2.png" alt="">
+                        <img src="../img/3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="list-card">
+                    <h1>3D Bike Customizer</h1>
+                    <hr>
+                    <p>A school project that is an Interactive 3d bike customizer created using Three JS library. Users can customize a bike with 3d visualization of the bike model.</p>
+
+                    <div class="image-wrapper">
+                        <img src="../img/bike.png" alt="">
+                        <img src="../img/bike2.png" alt="">
+                    </div>
+                </div>
+
+                <div class="list-card">
+                    <h1>Voting System</h1>
+                    <hr>
+                    <p>A School Club Project which can be used for SSC Elections. Using HTML, CSS, JS, and Bootstrap.</p>
+
+                    <div class="image-wrapper">
+                        <img src="../img/voting.jpg" alt="">
+                        <img src="../img/voting2.jpg" alt="">
+                    </div>
+                </div>
             </div>
         </div>
     </div>

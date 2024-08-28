@@ -117,7 +117,7 @@ nav {
     /* border-radius: 5px; */
     border: 1px solid #333;
     z-index: 3;
-    background-color: #7696ffd5;
+    background-color: #7696ffa4;
 }
 
 .hero-texts p,
@@ -437,7 +437,9 @@ h1 {
 .roles-section .card .role-texts {
     /* position: relative; */
     height: 100%;
-    box-shadow: 0 0px 10px #1d1d1d6e, 0 5px 10px #1d1d1d8c;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 0px 10px #1d1d1d6e, 0 5px 10px #1d1d1d31;
     /* border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px; */
     background-color: white;
@@ -488,6 +490,79 @@ h1 {
 
 
 
+
+
+.project-wrapper {
+    margin-top: 100px;
+    color: white;
+    width: 425px;
+    margin: auto;
+    height: 100vh;
+    /* background-color: #9DBDFF; */
+}
+
+
+
+.project-wrapper .projList {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    /* padding: 100px 12px 0px 12px; */ 
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #9DBDFF;
+    z-index: 3;
+}
+
+.project-wrapper .proj-contain {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;
+    /* border: 1px red solid; */
+
+}
+
+.projList  .list-card{
+    background-color: #7696ff48;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px rgba(255, 255, 255, 0.637) solid;
+    /* box-shadow: 0 0px 10px #1d1d1d6e, 0 5px 10px #1d1d1d8c; */
+    /* border: 1px white solid; */
+    /* padding: 100px; */
+}
+
+.projList img {
+    max-width: 250px;
+}
+
+.projList hr {
+    border: 1px #33333334 solid;
+    outline: none;
+}
+
+.projList .image-wrapper {
+    margin-top: 20px;
+    background-color: #7696ff85;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.projList p {
+    margin-top: 20px;
+}
+
+
+.projList h1 {
+    margin: 12px;
+}
 
 
 
@@ -564,6 +639,27 @@ h1 {
 
     .hero-texts h1 {
         font-size: 3.5em;
+    }
+
+
+    .project-wrapper {
+        min-width: 768px;
+    }
+    
+    .list-card {
+        /* border: 1px white solid; */
+        background-color: #7696ff48;
+        border-radius: 10px;
+        padding: 50px;
+    }
+
+    .projList h1 {
+        font-size: 3em;
+        text-shadow: 2px 2px#3333335d;
+    }
+
+    .projList img {
+        max-width: 550px;
     }
 }
 
