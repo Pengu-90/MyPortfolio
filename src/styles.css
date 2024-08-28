@@ -113,7 +113,7 @@ nav {
 .hero-texts {
     width: 425px;
     margin: 12px;
-    padding: 30px;
+    padding: 50px;
     /* border-radius: 5px; */
     border: 1px solid #333;
     z-index: 3;
@@ -363,16 +363,19 @@ h1 {
 .roles-section .card-contain {
     background-color: #9DBDFF;
     margin: 50px auto 50px auto;
+    padding: 30px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
     width: 100%;
     max-width: 768px;
     min-height: 350px;
     border-radius: 20px;
     /* background-color: #8f1616; */
     box-shadow: 0 5px 20px #1d1d1dc9, 0 10px 10px #979797cc;
+    /* overflow: hidden; */
 }
 
 .roles-section .role-img-contain1,
@@ -380,9 +383,10 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     height: 120px;
-    box-shadow: 0 5px 10px #1d1d1d8c, 0 10px 10px #979797cc;
+    margin: 10px auto;
+    /* box-shadow: 0 5px 10px #1d1d1d8c, 0 10px 10px #979797cc; */
 }
 
 .roles-section .role-img-contain1 {
@@ -401,14 +405,16 @@ h1 {
 }
 
 .roles-section .card {
-    margin: 10px;
+    /* padding: 12px; */
+    /* margin: 0 10px 0 10px; */
     width: 200px;
     border-radius: 10px;
     z-index: 2;
-    /* overflow: hidden; */
-    /* height: 100%; */
-    /* background-color: white; */
-    /* box-shadow: 0 5px 10px #333, 0 10px 10px #979797cc; */
+    overflow: hidden;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.918);
+    /* padding: 8px; */
+    box-shadow: 0 5px 10px #333, 0 10px 10px #979797cc;
 }
 
 .roles-section .card .detail-header {
@@ -429,11 +435,11 @@ h1 {
 }
 
 .roles-section .card .role-texts {
-    position: relative;
-    height: 200px;
+    /* position: relative; */
+    height: 100%;
     box-shadow: 0 0px 10px #1d1d1d6e, 0 5px 10px #1d1d1d8c;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    /* border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; */
     background-color: white;
     /* border: 1px solid #333; */
 }
