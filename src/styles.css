@@ -517,7 +517,6 @@ h1 {
         height: 150px;
     }
 
-
     .roles-section .card .role-texts .details {
         padding: 12px;
     }
@@ -561,6 +560,10 @@ h1 {
 
     .roles-section .card .role-texts .details {
         padding: 12px;
+    }
+
+    .hero-texts h1 {
+        font-size: 3.5em;
     }
 }
 
